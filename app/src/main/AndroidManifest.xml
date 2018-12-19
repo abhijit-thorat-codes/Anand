@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dummy.anand">
+    package="com.example.dummy.yuvavarta">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/app_logo"
@@ -33,6 +34,8 @@
         <activity android:name=".Page2" />
         <activity android:name=".Page3" />
         <activity android:name=".Page4" />
+        <activity android:name=".Page" />
+        <activity android:name=".Fetch"></activity>
     </application>
 
 </manifest>

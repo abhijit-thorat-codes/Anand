@@ -24,12 +24,11 @@
 
     </android.support.v7.widget.Toolbar>
 
-    <ImageView
+    <ImageButton
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/page"
         android:layout_below="@+id/myBar"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        />
 
 </RelativeLayout>
