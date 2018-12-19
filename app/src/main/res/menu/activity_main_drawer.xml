@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_paper"
+            android:icon="?android:attr/actionModeCopyDrawable"
+            android:title="News Paper" />
+        <item
+            android:id="@+id/nav_magazine"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Magazines" />
+        <item
+            android:id="@+id/nav_galary"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Photo galary" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@android:drawable/ic_lock_idle_lock"
+            android:title="Logout" />
+    </group>
+
+    <item
+        android:id="@+id/nav_feeds"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:title="Feedback" />
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@android:drawable/stat_sys_phone_call"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="About Us" />
+</menu>
